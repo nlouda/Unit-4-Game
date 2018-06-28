@@ -1,0 +1,81 @@
+body{
+    font-family: 'Merriweather', serif; 
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: black;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 15px;
+    font: bold;
+    line-height: 250%;
+}
+#header {
+    font-size: 2rem;
+    color: white;
+    padding: 15px 0px;
+    margin:10px;
+    background-color:#f7a931;
+    width: 35%;
+    position:relative;
+  }
+  #instructions {
+    background-color: lightyellow ;
+    color:green;
+    width: 45%;
+    height: 300px;
+    margin:10px;
+  }
+  
+  #randomNumber {
+    background-color:#30b730;
+    height: 80px;
+    width: 150px;
+    margin:10px;
+    display:inline-block;
+    text-align: center;
+    font-size: 4.5rem;
+  
+  }
+  #scoreboard {
+    background-color:#6df7eb;
+    height:80px;
+    width:90px;
+    display:inline-block;
+    margin:10px;
+    font-size: .85rem;
+  }
+  
+  .playerNumber {
+    background-color: lightseagreen;
+    padding:10px;
+    width:19%;
+    margin:10px;
+  }
+  #playerNumber {
+    height:80px;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .crystal {
+    width:8%;
+    height:auto;
+    margin: 0 0 0 5px;
+  }
+  .footer{
+    background-color:white;
+    color:#efcd8f;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom:0;
+    width:100%; 
+    border-top: 6px solid #efcd8f;
+
+}
+.clearfix{
+    clear:both;
+}
